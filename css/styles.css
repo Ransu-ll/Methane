@@ -1,0 +1,157 @@
+/* Navbar */
+
+
+/* General */
+
+body {
+  padding-top: 56px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p, .section-list {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.7rem;
+}
+
+hr {
+  border-style: none;
+  height: 30px;
+  margin: 0;
+}
+
+ul {
+  overflow-x: auto;
+}
+
+.lighter2light {
+  background-image: linear-gradient(to bottom, #b0f4e6, #67eaca);
+}
+
+.light2lighter {
+  background-image: linear-gradient(to bottom, #67eaca, #b0f4e6);
+}
+
+.lighter2yellow {
+  background-image: linear-gradient(to bottom, #b0f4e6, #fcf9ec);
+}
+
+.container-fluid .container-fluid-nested {
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0 6% 0 6%;
+  min-height: 100vh;
+}
+
+.container-fluid-nested {
+  min-height: auto;
+}
+
+.image {
+  max-width: 100%;
+}
+
+@media (max-width: 992px) {
+  .image {
+    max-width: 80%;
+  }
+}
+
+.creditation {
+  font-size: 0.8rem;
+}
+
+/* Headers */
+
+.title, .subheading {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 60px;
+}
+
+.title {
+  font-size: 7rem;
+  padding-top: 30px;
+  max-width: 100%;
+}
+
+.subheading {
+  font-size: 4rem;
+  padding-top: 50px;
+}
+
+/* Sections */
+
+.row {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+
+
+.lighter-turquoise {
+  background-color: #b0f4e6;
+}
+
+.light-turquoise {
+  background-color: #67eaca;
+}
+
+.dark-turquoise {
+  background-color: #12d3cf;
+}
+
+.light-yellow {
+  background-color: #fcf9ec;
+}
+
+footer {
+  text-align: center;
+}
+
+/* Section - Chemical Properties */
+
+.chem_prop_imgs {
+  margin-top: 3%;
+}
+
+/* Section - Chemical Equation */
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .jumbotron {
+    margin-top: 30px;
+  }
+}
+
+
+/* Section - Bibliography */
+
+.modal {
+  padding: 0;
+}
