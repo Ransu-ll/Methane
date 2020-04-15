@@ -16,6 +16,12 @@ p, .section-list {
   font-size: 1.7rem;
 }
 
+@media (max-width: 768px) {
+  p, .section-list {
+    font-size: 1.2rem;
+  }
+}
+
 hr {
   border-style: none;
   height: 30px;
@@ -78,6 +84,12 @@ ul {
   font-size: 7rem;
   padding-top: 30px;
   max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 5rem;
+  }
 }
 
 .subheading {
